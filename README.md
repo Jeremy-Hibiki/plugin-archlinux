@@ -1,24 +1,12 @@
-<img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
-
-#### plugin-archlinux
-> A plugin for [Oh My Fish][omf-link].
-
-[![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
-[![Fish Shell Version](https://img.shields.io/badge/fish-v3.0.0-007EC7.svg?style=flat-square)](https://fishshell.com)
-[![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
-
-<br/>
-
-
 ## Install
 
 ```fish
-$ omf install https://github.com/Jeremy-Hibiki/plugin-archlinux
+$ fisher install Jeremy-Hibiki/plugin-archlinux
 ```
 
 ## Features
 
-Ported from ohmyzsh plugin [archlinux](https://github.com/ohmyzsh/ohmyzsh/blob/872b5cd4086a5547dbf788dda4e96ab3868cf59b/plugins/archlinux/archlinux.plugin.zsh) with additional aliases for `paru` from PR  ohmyzsh/ohmyzsh#11399
+Ported from ohmyzsh plugin [archlinux](https://github.com/ohmyzsh/ohmyzsh/blob/872b5cd4086a5547dbf788dda4e96ab3868cf59b/plugins/archlinux/archlinux.plugin.zsh) with additional aliases for `paru` from PR ohmyzsh/ohmyzsh#11399
 
 ### Pacman
 
@@ -92,7 +80,7 @@ upgrades were available. Use `pacman -Que` instead.
 | Function        | Description                                                         |
 | --------------- | ------------------------------------------------------------------- |
 | auownloc _file_ | Display information about a package that owns the specified file(s) |
-| auownls  _file_ | List all files owned by a package that owns the specified file(s)   |
+| auownls _file_  | List all files owned by a package that owns the specified file(s)   |
 
 #### Pacaur
 
@@ -202,15 +190,9 @@ whether the package manager is installed, checked in the following order:
 5. `aura`
 6. `pacman`
 
-
 # License
 
-[MIT][mit] © [Jeremy-Hibiki][author] et [al][contributors]
+[MIT][mit] © [Jeremy-Hibiki][author]
 
-
-[mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/Jeremy-Hibiki
-[contributors]:   https://github.com/Jeremy-Hibiki/plugin-archlinux/graphs/contributors
-[omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
-
-[license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
+[mit]: https://opensource.org/licenses/MIT
+[author]: https://github.com/Jeremy-Hibiki
